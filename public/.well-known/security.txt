@@ -1,0 +1,4 @@
+Contact: mailto:hello@kevxo.com
+Canonical: https://kevxo.com/.well-known/security.txt
+Preferred-Languages: en, zh
+Expires: 2027-08-02T00:00:00.000Z

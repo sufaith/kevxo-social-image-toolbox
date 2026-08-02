@@ -1,0 +1,9 @@
+import type { Metadata } from "next";
+import { SiteFooter } from "../components/SiteFooter";
+import { SiteHeader } from "../components/SiteHeader";
+
+export const metadata: Metadata = { title: "Privacy Policy", description: "Kevxo privacy policy and local image processing details.", alternates: { canonical: "/privacy/" } };
+
+export default function PrivacyPage() {
+  return <><SiteHeader /><main className="legal-main"><div className="shell legal-shell"><span className="eyebrow">PRIVACY POLICY</span><h1>Your images stay yours.</h1><p className="legal-lede">Effective August 2, 2026</p><section><h2>Image processing</h2><p>Images selected in the Kevxo editor are processed locally by your browser using the Canvas API. They are not transmitted to, stored by or reviewed on Kevxo servers.</p></section><section><h2>Technical logs</h2><p>Our hosting and security providers may process standard request information such as IP address, browser type, requested URL, timestamps and security signals. These logs support reliability, abuse prevention and diagnostics.</p></section><section><h2>Analytics and advertising</h2><p>Kevxo may use privacy-respecting analytics to understand aggregate usage. If advertising or non-essential measurement cookies are introduced, applicable consent controls and this policy will be updated before those technologies are enabled.</p></section><section><h2>Data sharing</h2><p>We do not sell personal information. Infrastructure providers may process limited technical data on our behalf under their own security and privacy commitments.</p></section><section><h2>Your choices</h2><p>You may use the image editor without an account. You can disable optional cookies in your browser and contact hello@kevxo.com with privacy questions.</p></section><section><h2>Contact</h2><p>Email <a href="mailto:hello@kevxo.com">hello@kevxo.com</a>.</p></section></div></main><SiteFooter /></>;
+}

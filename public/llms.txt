@@ -1,0 +1,15 @@
+# Kevxo
+
+Kevxo is a free, private social media image resizer and 2026 image-size reference.
+
+## Primary tool
+- https://kevxo.com/ — Upload one image, choose platform presets, adjust crop and safe zones, then export PNG, JPG, WebP or a batch ZIP.
+
+## Platform guides
+- Instagram, Facebook, X, LinkedIn, YouTube, TikTok, Pinterest, Threads, Snapchat, WhatsApp, Discord, Twitch and Bluesky image sizes.
+
+## Privacy
+Image processing happens locally in the browser. Source images are not uploaded to Kevxo servers.
+
+## Contact
+hello@kevxo.com
